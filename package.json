@@ -29,8 +29,8 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.4",
     "@vue/cli-plugin-eslint": "^4.0.4",
-    "@vue/cli-service": "^4.0.4",
     "@vue/cli-plugin-vuex": "^4.0.4",
+    "@vue/cli-service": "^4.0.4",
     "babel-eslint": "^10.1.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^14.0.0",
@@ -43,5 +43,8 @@
     "vue-template-compiler": "^2.6.11",
     "webpack": "^4.46.0"
   },
-  "homepage": "https://fga.setworld.net"
+  "homepage": "https://fga.setworld.net",
+  "optionalDependencies": {
+    "fsevents": "^2.3.3"
+  }
 }
